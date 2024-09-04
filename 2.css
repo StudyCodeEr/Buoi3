@@ -1,0 +1,46 @@
+#Tin{
+    background-color: rgb(66 189 189);
+    color: #ffff;
+    max-width: 98%;
+    padding-left: 15px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: purple;
+}
+a::after{
+    content: "";
+    position: absolute;
+    background-color: #888;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.2s;
+}
+a:hover{
+    color: rgb(228, 228, 19);
+}
+a:hover:after{
+    width: 100%;
+}
+body{
+    font-family: "Roboto Slab", serif;
+    border: 560px;
+    padding: 10px;
+    font-size: 130%;
+}
+p{
+    text-align: justify;
+}
+img{
+    width: 560px;
+    height: 430px;
+    padding-top: 20px;
+}
+.content{
+    margin: 20px 100px 0 100px;
+}
